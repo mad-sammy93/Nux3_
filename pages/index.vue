@@ -8,7 +8,10 @@
 </template>
 
 <script setup lang="ts">
+// console.log(useNuxtApp());
 
+const { $sayHello } = useNuxtApp();
+$sayHello('BOYDEN');
 
 </script>
 
