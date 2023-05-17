@@ -1,5 +1,7 @@
 <template>
     <div>
+      <ContentDoc />
+
       <Alert />
         Index Page
         <IconsBell />
@@ -15,7 +17,7 @@ definePageMeta({
 })
 
 const { $sayHello } = useNuxtApp();
-$sayHello('BOYDEN');
+// $sayHello('BOYDEN');
 
 </script>
 
