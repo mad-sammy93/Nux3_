@@ -5,8 +5,10 @@
 </template>
 
 <script setup lang="ts">
-    const { sayHello } = useUtils();
-    sayHello();
+    // const { sayHello } = useUtils();
+    // sayHello();
+
+    
 </script>
 
 <style scoped>

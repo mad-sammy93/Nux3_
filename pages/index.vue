@@ -10,6 +10,10 @@
 <script setup lang="ts">
 // console.log(useNuxtApp());
 
+definePageMeta({
+  middleware: 'auth'
+})
+
 const { $sayHello } = useNuxtApp();
 $sayHello('BOYDEN');
 
